@@ -14,13 +14,20 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
   </head>
   <body>
-    <div align="center" class="embed-responsive embed-responsive-16by9" id="player">
+    <div class="row">
+      <div class="col-md-9">
+        <div align="center" class="embed-responsive embed-responsive-16by9" id="player">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <iframe id="gear-widget" scrolling="no" src="https://gateway.gear.mycelium.com/widgets/a98879abc564054eb2489c5cef832ebe35752ae7c1f8b9f9d4c04a18c7af9996" style="border: none; display: inline-block; height: 130px; min-width: 250px; max-width: 350px;"></iframe>
+      </div>
     </div>
     <script>
       var player = new Clappr.Player({source: "https://live69.vkuserlive.com/637613/live/482162810/9efk49TzxdM0dgaER2PTgwOjM8PDw_/playlist.m3u8?extra=YeD1NrmY1S0DwEK_uTfVfENtazZy5TS96Lr5oe0svIpOoozPeYHeGBUQqSvSPH0mRHUvrrPHjnxaGdhHcW-U48AZfqqN9a7z4XZtz27Tjk8YCGXTwGR45NLAc_-yt69JErcH9sXcrxI", 
                                        parentId: "#player", autoPlay: true});
     </script>
     <script src="https://gateway.gear.mycelium.com/gear-widget-host.js"></script>
-    <iframe id="gear-widget" scrolling="no" src="https://gateway.gear.mycelium.com/widgets/a98879abc564054eb2489c5cef832ebe35752ae7c1f8b9f9d4c04a18c7af9996" style="border: none; display: inline-block; height: 130px; min-width: 250px; max-width: 350px;"></iframe>
+   
   </body>
 </html>
